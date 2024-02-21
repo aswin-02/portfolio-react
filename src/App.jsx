@@ -1,7 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./Home.css";
+import "./Home.css"; 
 import Home from "./Home.jsx";
 import Tech from "./Tech.jsx";
 import Slider from "./Slider.jsx";
@@ -13,47 +10,7 @@ import Projects from "./Projects.jsx";
 function App() {
   return (
     <>
-      <div className="bg">
-        <nav className="  navbar navbar-expand-sm navbar-light ">
-          <button
-            className="navbar-toggler foc-us"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapsibleNavbar"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="nav navbar-nav d-inline-flex">
-              <a className="nav-link hov font-weight-bold" href="#techstack">
-                SKILLS
-              </a>
-              <a className="nav-link hov font-weight-bold" href="#projects">
-                PROJECTS
-              </a>
-              <a className="nav-link hov font-weight-bold" href="#about">
-                ABOUT
-              </a>
-              <a className="nav-link hov font-weight-bold" href="#contact">
-                CONTACT
-              </a>
-
-              <li className="nav-link">
-                <button className="button">
-                  <img src="./img/linkedin.svg" height="25" width="25" />
-                </button>
-                <button className="button">
-                  <img src="./img/github.svg" width="25" height="25" />
-                </button>
-                <button className="button">
-                  <img src="./img/envelope-fill.svg" height="25" width="25" />
-                </button>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <Home />
-      </div>
+      <Nav />
       <About />
       <Slider />
       <Tech />
@@ -88,4 +45,54 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
  
+
+
+
+const Nav = () => {
+  return (
+    <div className="bg">
+        <nav className="  navbar navbar-expand-sm navbar-light ">
+          <button
+            className="navbar-toggler foc-us"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul className="nav navbar-nav d-inline-flex">
+              <a className="nav-link hov font-weight-bold" href="#techstack">
+                SKILLS
+              </a>
+              <a className="nav-link hov font-weight-bold" href="#projects">
+                PROJECTS
+              </a>
+              <a className="nav-link hov font-weight-bold" href="#about">
+                ABOUT
+              </a>
+              <a className="nav-link hov font-weight-bold" href="#contact">
+                CONTACT
+              </a>
+
+              <li className="nav-link">
+                <button className="button" onClick={() => window.open('https://www.linkedin.com/in/aswin05', '_blank')}>
+                  <img src="./img/linkedin.svg" height="25" width="25" />
+                </button>
+                <button className="button"   onClick={() => window.open('https://github.com/aswin-02', '_blank')}>
+                  <img src="./img/github.svg" width="25" height="25" />
+                </button>
+                <button className="button" onClick={() => window.open('mailto:aswinvijay207.com')}>
+                  <img src="./img/envelope-fill.svg" height="25" width="25" />
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <Home />
+      </div>
+  );
+}
+
+
 export default App;

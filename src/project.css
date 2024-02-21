@@ -3,6 +3,11 @@
   box-sizing: border-box;
 } */
 
+works{
+  color: blueviolet;
+  font-weight: bolder;
+}
+
  .projectcard img {
   aspect-ratio: 3/2;
   object-fit: contain;
@@ -29,10 +34,35 @@
   transform: translatey(-5px);
 }
 
-.projectcard-image { 
-  
+
+.image-text{
+  color: white;
+  display: none;
+  position: absolute; 
+  padding: 5%;
+  font-weight: bolder;
+  top: 20%;
+
+}
+ 
+
+.projectcard-image img{   
+  transition: 500ms;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.projectcard-image:hover .image-text {
+  display: block;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.projectcard-image img:hover{
+
+  cursor: pointer; 
+  filter: brightness(0.2);
+  z-index: -1;
 }
 
 .projectcard-header {
@@ -44,8 +74,8 @@
 
 .projectcard-header p {
   
-  font-weight: 600;
-  font-size: 1.375rem;  
+  font-weight: bolder;
+  font-size: larger;  
   
 }
  
@@ -75,7 +105,7 @@
   padding: 10px 20px;
   background-color: blueviolet;
   color: white;
-  border-radius: 20px;
+  border-radius: 50px;
   border: 1px solid transparent;
   font-weight: bolder;
   transition: 200ms;
@@ -95,23 +125,27 @@
   background-color: white;
   color: blueviolet;
   border: 1px solid blueviolet;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 #code:hover{
   background-color: blueviolet;
   color: white;
   border: 1px solid transparent;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 @media screen and (max-width: 600px) {
-  .projectrid-container{
-    grid-template-columns: repeat(2, 2fr);
+.projectgrid-container{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .projectskillcard-list{
     width: 100%;
+  }
+  
+  .image-text{
+    top: 12%;
   }
 }
 

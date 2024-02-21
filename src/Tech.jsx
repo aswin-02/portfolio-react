@@ -2,7 +2,7 @@ import './Home.css';
 
 function Tech() {
   return (
-    <div id="techstack" class="container mt-5">
+    <div id="techstack" class="container">
       <h1 class="text-capitalize tech-txt">
         Tech <works>stack</works>
       </h1>

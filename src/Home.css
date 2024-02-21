@@ -8,7 +8,7 @@
 .bg {
   background-image: url("/img/bg.png");
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;  
 }
 html {
@@ -68,7 +68,7 @@ html {
 }
 
 .head-text h2 {
-  font-size: 15vh;
+  font-size: 12vh;
   color: rgb(115, 1, 160);
   position: relative;
   animation: textmoveside 2s forwards;
@@ -686,7 +686,7 @@ h1 {
     }
   
     .head-text h2 {
-      font-size: 8vh;
+      font-size: 7vh;
     }
   
     .txt {
@@ -715,7 +715,7 @@ h1 {
     }
   
     .tech-txt {
-      font-size: 5vh;
+      font-size: larger;
     }
   
     .about-container p {
@@ -753,8 +753,24 @@ h1 {
       width: 100%;
     }
     
+    .contact-card p{
+      font-size: large;
+    }
+
     .dev{
       font-size: small;
     }
   }
   
+
+  @media screen and (max-width: 600px) {
+    
+    .skillcard-list{
+      width: 100%;
+    }
+
+    .tech-txt {
+      font-size: 2em;
+    }
+    
+  }
