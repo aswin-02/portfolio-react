@@ -61,7 +61,7 @@ works{
 .projectcard-image img:hover{
 
   cursor: pointer; 
-  filter: brightness(0.2);
+  filter: brightness(0.1);
   z-index: -1;
 }
 
@@ -101,41 +101,70 @@ works{
 }
 
 
-#goto{
+
+.button-goto {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(185, 110, 255),
+    rgb(0, 30, 197)
+  );
+  cursor: pointer;
   padding: 10px 20px;
-  background-color: blueviolet;
-  color: white;
-  border-radius: 50px;
   border: 1px solid transparent;
+  font-size: large;
   font-weight: bolder;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
   transition: 200ms;
+  box-shadow: 0px 5px 10px -5px rgb(68, 68, 68);
+  position: relative;
+  animation: moveup 2s forwards;
+}
+.button-goto:hover {
+  transform: scale(0.9);
+  background-image: none;
+  background-color: white;
+  border: 1px solid rgb(126, 9, 155);
+
+  color: rgb(126, 9, 155);
+}
+.button-goto:focus {
+  outline: none;
 }
 
-#code{
+
+.button-code {
+  background-color: white;
+  cursor: pointer;
   padding: 10px 20px;
-  background-color: white;
-  color:  blueviolet;;
-  border-radius: 20px;
-  border: 1px solid blueviolet;
+  border: none;
+  font-size: large;
   font-weight: bolder;
+  color: rgb(126, 9, 155);
+  border: 1px solid rgb(126, 9, 155);
+  border-radius: 10px;
   transition: 200ms;
+  box-shadow: 0px 5px 10px -5px rgb(68, 68, 68);
+  position: relative;
+  animation: moveup 2s forwards;
 }
-
-#goto:hover{
-  background-color: white;
-  color: blueviolet;
-  border: 1px solid blueviolet;
+.button-code:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(185, 110, 255),
+    rgb(0, 30, 197)
+  );
   transform: scale(0.9);
-}
-
-#code:hover{
-  background-color: blueviolet;
-  color: white;
   border: 1px solid transparent;
-  transform: scale(0.9);
+  color: white;
+}
+.button-code:focus {
+  outline: none;
 }
 
-@media screen and (max-width: 600px) {
+ 
+
+@media screen and (max-width: 770px) {
 .projectgrid-container{
     grid-template-columns: repeat(1, 1fr);
   }

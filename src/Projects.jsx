@@ -1,4 +1,5 @@
-import "./project.css";
+import "./project.css"; 
+
 import moviefetcher from "../img/moviefetcher.jpeg";
 import srit from "../img/srit2.jpeg";
 import ecommerce from "../img/ecommerce.jpeg";
@@ -28,8 +29,8 @@ function Projects() {
               <p>Movie Fetcher</p>
             </div>
             <div className="d-flex justify-content-around pb-2">
-              <button id="goto">goto</button>
-              <button id="code">code</button>
+            <button className="button-goto"  onClick={() => window.open('https://moviefetcher-bfcc8.web.app/', '_blank')}>goto</button>
+              <button className="button-code" onClick={() => window.open('https://github.com/aswin-02/moviefetcher', '_blank')} >code</button>
             </div>
           </article>
         </div>
@@ -48,7 +49,7 @@ function Projects() {
               <p>Institutional webpage</p>
             </div>
             <div className="d-flex justify-content-around pb-2">
-              <button id="goto">goto</button>
+              <button className="button-goto"  onClick={() => window.open('https://srit.org/research-index.html','_blank')} >goto</button>
             </div>
           </article>
         </div>
@@ -67,7 +68,7 @@ function Projects() {
               <p>Online Grocery Store</p>
             </div>
             <div className="d-flex justify-content-around pb-2">
-              <button id="code">code</button>
+              <button className="button-code"  onClick={()=>window.open('https://github.com/aswin-02/simple-grocery-store','_blank')}>code</button>
             </div>
           </article>
         </div>
@@ -86,7 +87,7 @@ function Projects() {
               <p>Instagram Login</p>
             </div>
             <div className="d-flex justify-content-around pb-2">
-              <button id="code">code</button>
+              <button className="button-code" onClick={()=>window.open('https://github.com/aswin-02/INSTA_LOGIN','_blank')}>code</button>
             </div>
           </article>
         </div>

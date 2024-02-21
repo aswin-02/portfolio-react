@@ -16,13 +16,13 @@ function Contact() {
             I'll buy the coffee.
           </p>
           <li class="contact-buttons">
-            <button class="button" onclick="linkedin()">
+            <button class="button" onClick={() => window.open('https://www.linkedin.com/in/aswin05', '_blank')}>
               <img src="/img/linkedin.svg" height="25" width="25" />
             </button>
-            <button class="button" onclick="git()">
+            <button class="button" onClick={() => window.open('https://github.com/aswin-02', '_blank')}>
               <img src="/img/github.svg" width="25" height="25" />
             </button>
-            <button class="button" onclick="mail()">
+            <button class="button" onClick={() => window.open('mailto:aswinvijay207.com')}>
               <img src="/img/envelope-fill.svg" height="25" width="25" />
             </button>
           </li>
