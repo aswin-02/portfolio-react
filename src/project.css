@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap");
+/* *, *:after, *:before {
+  box-sizing: border-box;
+} */
+
+ .projectcard img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  width: 100%;
+  display: block;
+}
+
+.projectcard-list { 
+  width: 100%;
+  max-width: 400px;
+}
+
+.projectcard {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 1.25rem;
+  position: relative;
+  transition: 0.15s ease-in;
+}
+
+.projectcard:hover { 
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.3);
+  transform: translatey(-5px);
+}
+
+.projectcard-image { 
+  
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.projectcard-header {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectcard-header p {
+  
+  font-weight: 600;
+  font-size: 1.375rem;  
+  
+}
+ 
+ 
+ 
+.projectgrid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.projectgrid-item{
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1.25rem;
+  position: relative;
+  transition: 0.15s ease-in;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#goto{
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  font-weight: bolder;
+  transition: 200ms;
+}
+
+#code{
+  padding: 10px 20px;
+  background-color: white;
+  color:  blueviolet;;
+  border-radius: 20px;
+  border: 1px solid blueviolet;
+  font-weight: bolder;
+  transition: 200ms;
+}
+
+#goto:hover{
+  background-color: white;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  transform: scale(0.8);
+}
+
+#code:hover{
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid transparent;
+  transform: scale(0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .projectrid-container{
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .projectskillcard-list{
+    width: 100%;
+  }
+}
+
