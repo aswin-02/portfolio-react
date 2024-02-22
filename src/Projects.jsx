@@ -1,9 +1,9 @@
 import "./project.css"; 
 
-import moviefetcher from "../img/moviefetcher.jpeg";
-import srit from "../img/srit2.jpeg";
-import ecommerce from "../img/ecommerce.jpeg";
-import instagram from "../img/instagram2.png";
+import moviefetcher from "./img/moviefetcher.jpeg";
+import srit from "./img/srit2.jpeg";
+import ecommerce from "./img/ecommerce.jpeg";
+import instagram from "./img/instagram2.png";
 
 function Projects() {
   return (

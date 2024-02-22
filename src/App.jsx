@@ -5,6 +5,9 @@ import Slider from "./Slider.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
+import linkedin from "./img/linkedin.svg";
+import github from "./img/github.svg";
+import mail from "./img/envelope-fill.svg";
 
 
 function App() {
@@ -77,13 +80,13 @@ const Nav = () => {
 
               <li className="nav-link">
                 <button className="button" onClick={() => window.open('https://www.linkedin.com/in/aswin05', '_blank')}>
-                  <img src="./img/linkedin.svg" height="25" width="25" />
+                  <img src={linkedin} height="25" width="25" />
                 </button>
                 <button className="button"   onClick={() => window.open('https://github.com/aswin-02', '_blank')}>
-                  <img src="./img/github.svg" width="25" height="25" />
+                  <img src={github} width="25" height="25" />
                 </button>
                 <button className="button" onClick={() => window.open('mailto:aswinvijay207.com')}>
-                  <img src="./img/envelope-fill.svg" height="25" width="25" />
+                  <img src={mail} height="25" width="25" />
                 </button>
               </li>
             </ul>

@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "./Home.css";
+import linkedin from "./img/linkedin.svg";
+import github from "./img/github.svg";
+import mail from "./img/envelope-fill.svg";
 import CLOUDS from "vanta/dist/vanta.clouds.min";
 
 function Contact() {
@@ -40,7 +43,7 @@ function Contact() {
                     window.open("https://www.linkedin.com/in/aswin05", "_blank")
                   }
                 >
-                  <img src="/img/linkedin.svg" height="25" width="25" />
+                  <img src={linkedin} height="25" width="25" />
                 </button>
                 <button
                   class="button"
@@ -48,13 +51,13 @@ function Contact() {
                     window.open("https://github.com/aswin-02", "_blank")
                   }
                 >
-                  <img src="/img/github.svg" width="25" height="25" />
+                  <img src={github} width="25" height="25" />
                 </button>
                 <button
                   class="button"
                   onClick={() => window.open("mailto:aswinvijay207.com")}
                 >
-                  <img src="/img/envelope-fill.svg" height="25" width="25" />
+                  <img src={mail} height="25" width="25" />
                 </button>
               </li>
             </div>
