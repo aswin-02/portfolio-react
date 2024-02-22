@@ -462,9 +462,7 @@ h1 {
     font-size: large;
   }
 
-  .dev {
-    font-size: small;
-  }
+   
 }
 
 @media screen and (max-width: 1024) {
@@ -488,5 +486,9 @@ h1 {
 
   .tech-txt {
     font-size: 2em;
+  }
+
+  .dev {
+  font-weight: bold;
   }
 }

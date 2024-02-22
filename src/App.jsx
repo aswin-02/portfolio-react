@@ -8,6 +8,7 @@ import Projects from "./Projects.jsx";
 import linkedin from "./img/linkedin.svg";
 import github from "./img/github.svg";
 import mail from "./img/envelope-fill.svg";
+import logo from "./img/logo-white.png";
 
 
 function App() {
