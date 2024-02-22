@@ -23,7 +23,7 @@ function App() {
       <Contact />
       <div className="d-flex justify-content-center">
         <div>
-          <p className="dev text-center pt-2">Designed and Developed by Aswin</p>
+          <p className="dev text-center pt-2" style={{fontWeight:"normal"}} >Designed and Developed by Aswin</p>
         </div>
       </div>
     </>
