@@ -15,7 +15,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/java.png" alt="java logo" />
+              <img src="./img/java.png" alt="java logo" />
             </figure>
             <div class="skillcard-header">
               <p>Java</p>
@@ -25,7 +25,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/HTML.png" alt="HTML logo" />
+              <img src="./img/HTML.png" alt="HTML logo" />
             </figure>
             <div class="skillcard-header">
               <p>HTML</p>
@@ -35,7 +35,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/CSS.png" alt="Css logo" />
+              <img src="./img/CSS.png" alt="Css logo" />
             </figure>
             <div class="skillcard-header">
               <p>CSS</p>
@@ -45,7 +45,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/javascript.png" alt="javascript logo" />
+              <img src="./img/javascript.png" alt="javascript logo" />
             </figure>
             <div class="skillcard-header">
               <p>JavaScript</p>
@@ -55,7 +55,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/Bootstrap.png" alt="Bootstrap logo" />
+              <img src="./img/Bootstrap.png" alt="Bootstrap logo" />
             </figure>
             <div class="skillcard-header">
               <p>Bootstrap</p>
@@ -65,7 +65,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/nodejs.png" alt="Node Js logo" />
+              <img src="./img/nodejs.png" alt="Node Js logo" />
             </figure>
             <div class="skillcard-header">
               <p>Node Js</p>
@@ -75,7 +75,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/react.png" alt="ReactJs logo" />
+              <img src="./img/react.png" alt="ReactJs logo" />
             </figure>
             <div class="skillcard-header">
               <p>ReactJs</p>
@@ -85,7 +85,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/php.png" alt="php logo" />
+              <img src="./img/php.png" alt="php logo" />
             </figure>
             <div class="skillcard-header">
               <p>Php</p>
@@ -95,7 +95,7 @@ function Tech() {
         <div class="skillcard-list">
           <article class="skillcard">
             <figure class="skillcard-image">
-              <img src="./img/skills/git.png" alt="git logo" />
+              <img src="./img/git.png" alt="git logo" />
             </figure>
             <div class="skillcard-header">
               <p>Git</p>
