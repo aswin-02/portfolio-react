@@ -29,7 +29,7 @@ function Projects() {
               <p>Movie Fetcher</p>
             </div>
             <div className="d-flex justify-content-around pb-2">
-            <button className="button-goto"  onClick={() => window.open('https://moviefetcher-bfcc8.web.app/', '_blank')}>goto</button>
+            {/* <button className="button-goto"  onClick={() => window.open('https://moviefetcher-bfcc8.web.app/', '_blank')}>goto</button> */}
               <button className="button-code" onClick={() => window.open('https://github.com/aswin-02/moviefetcher', '_blank')} >code</button>
             </div>
           </article>
