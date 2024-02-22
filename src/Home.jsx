@@ -3,7 +3,7 @@ import './Home.css';
 function Home() {
     return (
          
-        <div className="container head-text ">
+        <div className="container head-text" style={{marginTop:'7%'}}>
             <h1 className="display-3 hero mt-5">
                 <code style={{ color: 'rgb(99, 99, 99)' }}>le</code> Aswin
             </h1>

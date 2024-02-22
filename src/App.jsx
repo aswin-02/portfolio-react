@@ -50,7 +50,7 @@ window.addEventListener("scroll", reveal);
 
 const Nav = () => {
   return (
-    <div className="bg">
+    <div className="bg-img">
         <nav className="  navbar navbar-expand-sm navbar-light ">
           <button
             className="navbar-toggler foc-us"

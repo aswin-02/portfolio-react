@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.bg {
+.bg-img {
   background-image: url("/img/bg.png");
   background-size: cover;
   height: 100%;
@@ -56,8 +56,7 @@ html {
 }
 
 .hero-p {
-  font-size: x-large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large; 
   color: rgb(119, 119, 119);
 }
 
@@ -157,7 +156,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   background-color: transparent;
-  z-index: -1;
+  z-index: 1;
 }
 
 .about-text h1 {
@@ -173,6 +172,7 @@ h1 {
   border-top-style: groove;
   border-bottom-style: groove;
   background-color: rgba(0, 0, 0, 0.3);
+   
   transition: 100ms;
   animation: moveup 2s forwards;
 }
@@ -318,17 +318,11 @@ h1 {
 
 /* contact  */
 
-.anime-bg {
-  height: auto;
-  width: auto;
-  z-index: -1;
-}
+ 
 
 .secondary-bg {
   height: auto;
-  width: auto;
-  background-color: rgb(115, 1, 160);
-  z-index: -1;
+  width: auto; 
 }
 
 .contact-card {
